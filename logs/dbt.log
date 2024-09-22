@@ -1,0 +1,87 @@
+[0m16:33:31.910922 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108ef5d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ab26410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ab49950>]}
+
+
+============================== 16:33:31.915540 | c8491bff-ec23-4f01-911d-c04c9c6b98e9 ==============================
+[0m16:33:31.915540 [info ] [MainThread]: Running with dbt=1.8.6
+[0m16:33:31.916180 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/leonardomota/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init vendas_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m16:33:31.926850 [debug] [MainThread]: Starter project path: /Users/leonardomota/Desktop/PatrimoniIA/Projetos Dados/datawarehouse_v1/.venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m16:33:31.933463 [info ] [MainThread]: 
+Your new dbt project "vendas_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:33:31.933935 [info ] [MainThread]: Setting up your profile.
+[0m16:35:34.263756 [info ] [MainThread]: Profile vendas_dbt written to /Users/leonardomota/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:35:34.266577 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 122.365875, "process_user_time": 1.24573, "process_kernel_time": 0.228581, "process_mem_max_rss": "92950528", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:35:34.267277 [debug] [MainThread]: Command `dbt init` succeeded at 16:35:34.267145 after 122.37 seconds
+[0m16:35:34.267740 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107529810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ab4a150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075c4610>]}
+[0m16:35:34.268185 [debug] [MainThread]: Flushing usage events
+[0m16:41:47.325165 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110117d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110160e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110176390>]}
+
+
+============================== 16:41:47.331686 | 5ce5c474-7623-4e12-94aa-64807a2161e7 ==============================
+[0m16:41:47.331686 [info ] [MainThread]: Running with dbt=1.8.6
+[0m16:41:47.332385 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/Users/leonardomota/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:41:47.351449 [info ] [MainThread]: dbt version: 1.8.6
+[0m16:41:47.351952 [info ] [MainThread]: python version: 3.11.5
+[0m16:41:47.352370 [info ] [MainThread]: python path: /Users/leonardomota/Desktop/PatrimoniIA/Projetos Dados/datawarehouse_v1/.venv/bin/python
+[0m16:41:47.352760 [info ] [MainThread]: os info: macOS-10.16-x86_64-i386-64bit
+[0m16:41:47.433240 [info ] [MainThread]: Using profiles dir at /Users/leonardomota/.dbt
+[0m16:41:47.433699 [info ] [MainThread]: Using profiles.yml file at /Users/leonardomota/.dbt/profiles.yml
+[0m16:41:47.434067 [info ] [MainThread]: Using dbt_project.yml file at /Users/leonardomota/Desktop/PatrimoniIA/Projetos Dados/datawarehouse_v1/dbt_project.yml
+[0m16:41:47.434840 [info ] [MainThread]: adapter type: postgres
+[0m16:41:47.435227 [info ] [MainThread]: adapter version: 1.8.2
+[0m16:41:47.435600 [info ] [MainThread]: Configuration:
+[0m16:41:47.435920 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:41:47.436226 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:41:47.436626 [info ] [MainThread]: Required dependencies:
+[0m16:41:47.436976 [debug] [MainThread]: Executing "git --help"
+[0m16:41:47.445264 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:41:47.446140 [debug] [MainThread]: STDERR: "b''"
+[0m16:41:47.446628 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:41:47.447020 [info ] [MainThread]: Connection:
+[0m16:41:47.447433 [info ] [MainThread]:   host: dpg-cris4cij1k6c73fhjo40-a.ohio-postgres.render.com
+[0m16:41:47.447794 [info ] [MainThread]:   port: 5432
+[0m16:41:47.448135 [info ] [MainThread]:   user: user
+[0m16:41:47.448469 [info ] [MainThread]:   database: pipelinecrm
+[0m16:41:47.448822 [info ] [MainThread]:   schema: public
+[0m16:41:47.449158 [info ] [MainThread]:   connect_timeout: 10
+[0m16:41:47.449504 [info ] [MainThread]:   role: None
+[0m16:41:47.449846 [info ] [MainThread]:   search_path: None
+[0m16:41:47.450179 [info ] [MainThread]:   keepalives_idle: 0
+[0m16:41:47.450510 [info ] [MainThread]:   sslmode: None
+[0m16:41:47.450845 [info ] [MainThread]:   sslcert: None
+[0m16:41:47.451177 [info ] [MainThread]:   sslkey: None
+[0m16:41:47.451516 [info ] [MainThread]:   sslrootcert: None
+[0m16:41:47.451855 [info ] [MainThread]:   application_name: dbt
+[0m16:41:47.452186 [info ] [MainThread]:   retries: 1
+[0m16:41:47.452837 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m16:41:47.458534 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m16:41:47.516107 [debug] [MainThread]: Using postgres connection "debug"
+[0m16:41:47.516623 [debug] [MainThread]: On debug: select 1 as id
+[0m16:41:47.517043 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:41:49.222441 [debug] [MainThread]: SQL status: SELECT 1 in 1.705 seconds
+[0m16:41:49.233172 [debug] [MainThread]: On debug: Close
+[0m16:41:49.233947 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m16:41:49.234421 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:41:49.234843 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/leonardomota/Desktop/PatrimoniIA/Projetos Dados/datawarehouse_v1/dbt_project.yml> not found
+
+[0m16:41:49.236901 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 1.9742029, "process_user_time": 1.447789, "process_kernel_time": 0.378097, "process_mem_max_rss": "102121472", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:41:49.237628 [debug] [MainThread]: Command `dbt debug` failed at 16:41:49.237497 after 1.98 seconds
+[0m16:41:49.238109 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:41:49.238559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cc99050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110175d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1106d9910>]}
+[0m16:41:49.239073 [debug] [MainThread]: Flushing usage events
