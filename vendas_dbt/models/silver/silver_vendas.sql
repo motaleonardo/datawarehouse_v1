@@ -4,7 +4,7 @@ WITH cleaned_data AS (
     SELECT 
         email, 
         DATE(data) AS data,
-        valor, 
+        ROUND(CAST(valor AS DECIMAL(10,2)), 2) as valor, 
         quantidade, 
         produto
     FROM 
